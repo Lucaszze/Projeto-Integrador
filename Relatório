@@ -1,0 +1,29 @@
+Codificou classes:
+Classes como MainActivity, TempActivity, UmidActivity, Co2Activity, GlpActivity. Cada uma dessas classes representa uma atividade dentro do aplicativo Android.
+
+Codificou atributos:
+Atributos nas classes, como temp, umid, co2, glp, e hist. Esses atributos são do tipo ImageButton e são usados para referenciar botões de imagem na interface do usuário.
+
+Codificou métodos:
+Métodos em várias classes, como onCreate, setOnClickListener, e outros métodos relacionados à interação do usuário. Esses métodos são usados para definir o comportamento da atividade quando eventos ocorrem, como cliques nos botões.
+
+Codificou  atributos protegidos e/ou privados:
+Os atributos private ImageButton temp,private ImageButton umid etc. são usado para garantir que eles não possam ser acessados diretamente de fora da classe. Isso ajuda a manter o código seguro e facilita a manutenção futura, pois você controla o acesso a esses atributos por meio de métodos públicos. Essa prática segue princípios de encapsulamento e boa programação orientada a objetos..
+
+Codificou métodos protegidos e/ou privados:
+Os métodos onClick em cada botão são métodos privados que lidam com ações de clique. Eles são privados porque não precisam ser acessados fora da classe MainActivity.
+
+instanciou objetos:
+Instâncias de  objetos das classes TempActivity, UmidActivity, Co2Activity, GlpActivity, quando os respectivos botões são clicados.
+
+Identificou e codificou classes de comportamento:
+As classes  como TempActivity, UmidActivity, Co2Activity, GlpActivity, e outras, representam classes de comportamento, pois definem o comportamento das atividades do aplicativo.
+
+Ocultou informações usando atributos e/ou métodos protected/private:
+Você usou atributos privados e métodos privados para encapsular o comportamento interno das classes, como os métodos onClick e os atributos temp, umid, etc.
+
+Código Limpo:
+Nomes Descritivos: como temp, umid, co2, glp, e hist, o que facilita a compreensão de sua finalidade.
+Funções/Métodos Pequenos: métodos de clique (onClick) para os botões, que mantêm cada ação específica em métodos separados, seguindo o princípio da responsabilidade única.
+Sem Duplicação de Código
+Indentação e Espaçamento Consistentes
