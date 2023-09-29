@@ -5,10 +5,10 @@ Codificou atributos:
 co2 e glp são exemplos de atributos dentro das classes eles servem pra mostrar um botão em forma de imagem no front-end e o tipo deles é imagebutton
 
 Codificou métodos:
-Métodos setOnClickListener , e outros métodos relacionados à interação do usuário. Esses métodos são usados para definir o comportamento da atividade quando eventos ocorrem, como cliques nos botões.
+Método setOnClickListener é um metodo que reage ao usuario ele e ele define oque vai a acontecer quando o usuario clicar no botão
 
 Codificou  atributos protegidos e/ou privados:
-Os atributos private ImageButton temp,private ImageButton umid etc. são usado para garantir que eles não possam ser acessados diretamente de fora da classe. Isso ajuda a manter o código seguro e facilita a manutenção futura, pois você controla o acesso a esses atributos por meio de métodos públicos. Essa prática segue princípios de encapsulamento e boa programação orientada a objetos..
+O atributo private ImageButton temp,private ImageButton umid etc. são usado para garantir que eles não possam ser acessados diretamente de fora da classe. Isso ajuda a manter o código seguro e facilita a manutenção futura, pois você controla o acesso a esses atributos por meio de métodos públicos. Essa prática segue princípios de encapsulamento e boa programação orientada a objetos..
 
 Codificou métodos protegidos e/ou privados:
 Os métodos onClick em cada botão são métodos privados que lidam com ações de clique. Eles são privados porque não precisam ser acessados fora da classe MainActivity.
