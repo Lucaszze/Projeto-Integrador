@@ -1,0 +1,62 @@
+#define ledVerde 2
+#define ledVermelho 3
+#define ledAzul 4
+#define buzzer 6
+#define sensorT A1
+#define sensorG A0
+
+int gas = 0;
+int temperatura =  0;
+void setup()
+{
+  pinMode(ledVerde, OUTPUT);
+  pinMode(ledVermelho, OUTPUT);
+  pinMode(ledAzul, OUTPUT);
+  pinMode(buzzer, OUTPUT);
+  
+  pinMode(sensorT, INPUT);
+  pinMode(sensorG, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  temperatura = analogRead(sensorT);
+  gas = analogRead(sensorG);
+  temperatura = map(temperatura, 20, 358, -40, 125);
+  Serial.print("Temperatura = ");
+  Serial.println(temperatura);
+  Serial.print("      Gas = ");
+  Serial.println(gas);
+  
+  if((temperatura < 40) && (gas < 200)){
+  digitalWrite(ledVerde, HIGH);
+  noTone(buzzer);
+  }
+  else
+  {
+    digitalWrite(ledVerde, LOW);
+  }
+  if(temperatura > 40)
+  {
+    digitalWrite(ledVermelho, HIGH);
+    tone (buzzer, 1000);
+  }
+  else
+  {
+    digitalWrite(ledVermelho, LOW);
+  }
+  
+  if(gas > 200)
+  {
+    digitalWrite(ledAzul, HIGH);
+    tone (buzzer, 2000);
+  }
+  else
+  {
+    digitalWrite(ledAzul, LOW);
+  }
+  
+  
+  delay(1000);
+}
