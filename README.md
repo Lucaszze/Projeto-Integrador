@@ -1,0 +1,10 @@
+# Relatorio-
+  Monitoramento da qualidade do ar que fornece alertas usando IoT, o relatório descreve o projeto e a implementação de um sistema de monitoramento da qualidade do ar que fornece alertas usando o IoT. O principal objetivo do sistema é fornecer informações em tempo real sobre a qualidade do ar em uma área específica e alertar automaticamente quando os níveis de poluentes excedem os padrões especificados.
+  
+  Este sistema é essencial para proteger a saúde pública porque permite que as autoridades e os cidadãos tomem medidas imediatas quando ocorre poluição atmosférica, usando um sensor de qualidade do ar(Mq-2) capaz de detectar gases/vapores de GLP, Metano, Propano, Butano, Hidrogênico, Álcool e fumaça de cigarro e utilizando o sensor DHT 22 verificaremos a Umidade e a Temperatura são detectados, assim, monitoraremos continuamente os dados da qualidade do ar e compararemos esses dados com os limites estabelecidos pelas norma ambiental. 
+
+  Um aplicativo móvel sera fornecido para que agências, empresas e residentes acessem dados em tempo real, visualizem relatórios históricos e recebam alertas, se a concentração de poluentes exceder o padrão de detecção, o sistema envia imediatamente um aviso ao público, através de e-mail e notificações push, a interface do usuário fornece informações em tempo real sobre a qualidade do ar em um local específico, permitindo que as pessoas tomem decisões informadas, como evitar áreas com alta poluição do ar ou tomar medidas para proteger a sua saúde.
+
+  O sistema ajuda a proteger a saúde das pessoas, alertando-as sobre condições de má qualidade do ar que podem afetar a sua saúde, a combinação de sensores de qualidade do ar, IoT e sistemas de alerta eficazes fornece uma plataforma perfeita para monitorar e responder a eventos de má qualidade do ar em tempo real.
+
+  A informação passada ao público via aplicativo ajuda a eles se manterem certos de que os lugares em que estão está saudável e não há nada para os fazer mal e caso algo esteja afetando o ar ao ponto de trazer transtornos avisar o mais rápido possível para que o alvo possa evacuar do lugar.
