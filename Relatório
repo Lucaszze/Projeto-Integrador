@@ -1,5 +1,5 @@
 Codificou classes:
-Classes como MainActivity, TempActivity, UmidActivity, Co2Activity, GlpActivity. Cada uma dessas classes representa uma atividade dentro do aplicativo Android.
+A classe main activity serve pra mostrar uma atividade no android
 
 Codificou atributos:
 Atributos nas classes, como temp, umid, co2, glp, e hist. Esses atributos são do tipo ImageButton e são usados para referenciar botões de imagem na interface do usuário.
